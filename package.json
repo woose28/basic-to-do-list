@@ -4,7 +4,7 @@
   "description": "html, css, js 등의 웹 프론트엔드 분야의 기본기를 쌓기 위한 연습용 레포지터리입니다🚀",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch --no-cache"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/woose28/basic-to-do-list#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
     "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
     "prettier": "^2.5.1"
   }
 }
