@@ -4,7 +4,8 @@
   "description": "html, css, js 등의 웹 프론트엔드 분야의 기본기를 쌓기 위한 연습용 레포지터리입니다🚀",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --no-cache"
+    "test": "jest --watch --no-cache",
+    "build": "webpack --progress"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }
