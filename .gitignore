@@ -5,3 +5,6 @@ node_modules
 
 # webpack
 dist
+
+# env
+.env
